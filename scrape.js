@@ -238,5 +238,5 @@ const scrapeTodayMatches = async () => {
 };
 
 // scrapeTodayMatches();
-filterMatches();
+// filterMatches();
 module.exports = scrapeTodayMatches;
