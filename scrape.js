@@ -74,6 +74,7 @@ const filterMatches = () => {
       // Return the filtered match structure
       return {
         league: match.league,
+        leagueLogo: match.leagueLogo,
         homeTeam: match.homeTeam,
         awayTeam: match.awayTeam,
         homeTeamLogo: match.homeTeamLogo,
@@ -237,5 +238,5 @@ const scrapeTodayMatches = async () => {
 };
 
 // scrapeTodayMatches();
-// filterMatches();
+filterMatches();
 module.exports = scrapeTodayMatches;
